@@ -22,5 +22,9 @@ process, according to partner VAT responsability.
 account_clean_cancelled_invoice_number, from "Ingenieria ADHOC", But with specialized functionalities for Chilean Localization, included by 
 "Blanco Martin & Asociados"
 
+### Version 8.0.1.2.0
+Additionally to clean invoice number, also review if sequence qualify to be retracted.
+
+
 
 

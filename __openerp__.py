@@ -20,7 +20,7 @@
 ##############################################################################
 {
     'name': u'Clean Cancelled Invoice Number (Chilean Compatibility Version)',
-    'version': '8.0.1.1.0',
+    'version': '8.0.1.2.0',
     'category': 'Accounting',
     'sequence': 14,
     'summary': u'Invoicing, Number, Cancelled',
@@ -31,11 +31,14 @@ Adds a button on invoice to allow clean number to cancelled invoices in order to
 * Delete the invoice
 - This is a fork of account_clean_cancelled_invoice_number from Ingeniería Adhoc,
 but adapted by Blanco Martín & Asociados for Chilean localization compatibility.
+Este módulo está basado en el módulo de ADHOC S.A.
+"account_clean_cancelled_invoice_number", pero está enfocado hacia la localización
+chilena exclusivamente.
     """,
-    'author':  u'ADHOC SA, - Blanco Martín & Asociados',
-    'website': 'www.adhoc.com.ar',
+    'author':  u'Blanco Martín & Asociados',
+    'website': 'http://blancomartin.cl',
     'depends': [
-        'account_cancel'
+        'account_cancel', 'l10n_cl_invoice', 'l10n_cl_dte'
     ],
     'data': [
         'views/account_invoice_view.xml',
